@@ -1,14 +1,28 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class Interact : MonoBehaviour
 {
+    [SerializeField] private GameObject canvasInteract;
+    [SerializeField] private Item fromInteract;
     private int count;
+    
+    private void OnEnable()
+    {
+        count = 0;
+    }
+
+
     private void OnMouseDown()
     {
         count++;
-        this.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(Random.Range(-20,20),0), ForceMode.Force);
+        this.transform.localPosition = new Vector3(Random.Range(-8,8),Random.Range(-3,3),0);
         if (count > 10)
-            SceneManager.LoadScene(0);
+        {
+            canvasInteract.SetActive(false);
+            fromInteract.gameObject.SetActive(false);
+        }
     }
 }

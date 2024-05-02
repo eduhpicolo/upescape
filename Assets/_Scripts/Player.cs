@@ -9,10 +9,12 @@ public class Player : MonoBehaviour
     public Animator anim;
     public string tagCollider;
     public bool onMove; 
+    private float localSizeX;
     void Start()
     {
         actualPosition = transform;                            
-        destination = actualPosition.position;         
+        destination = actualPosition.position;
+        localSizeX = anim.gameObject.transform.localScale.x;
     }
 
     void Update()
@@ -35,7 +37,7 @@ public class Player : MonoBehaviour
                 Vector3 targetPoint = ray.GetPoint(hitdist);
                 destination = ray.GetPoint(hitdist);
                 Quaternion targetRotation = Quaternion.LookRotation(new Vector3(targetPoint.x,0,0) - new Vector3(transform.position.x, 0,0));
-                anim.gameObject.transform.localScale = new Vector3(targetRotation.y > 0 ? 5 : -5,5,1);
+                anim.gameObject.transform.localScale = new Vector3(targetRotation.y > 0 ? localSizeX : -localSizeX,localSizeX,1);
             }
         }
         if (destinationDistance > .05f)

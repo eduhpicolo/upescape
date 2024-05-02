@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: f28ef6148b32a4e98a98c1c466343c72
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite.IRENEai_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 309
+        width: 107
+        height: 274
+      alignment: 9
+      pivot: {x: 0.31531873, y: 0.52704525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351269877df3e491690dbb8afa055a2c
+      internalID: -2128913327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 309
+        width: 126
+        height: 274
+      alignment: 9
+      pivot: {x: 0.26822045, y: 0.52914906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cf92158345f442dabb80437d000435
+      internalID: 112784638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 309
+        width: 69
+        height: 274
+      alignment: 9
+      pivot: {x: 0.48524895, y: 0.527045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2365a9017eef4c5480d23c29b1e9a8f
+      internalID: 622342755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 310
+        width: 72
+        height: 271
+      alignment: 9
+      pivot: {x: 0.53196293, y: 0.5320875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb58f7231552430792e92e6e548d72a
+      internalID: 1133184988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 309
+        width: 79
+        height: 274
+      alignment: 9
+      pivot: {x: 0.6542243, y: 0.5252778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d09f5d50eb54224bf6e1cc183cc6bf
+      internalID: -1957406849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 309
+        width: 81
+        height: 274
+      alignment: 9
+      pivot: {x: 0.820201, y: 0.5180302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce97f810029947e98c439be79328145
+      internalID: 1041561374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 135
+        height: 275
+      alignment: 9
+      pivot: {x: 0.39021736, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740b47c414054c07bc00efde59ceb3f
+      internalID: 1665649755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_7
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 4
+        width: 132
+        height: 271
+      alignment: 9
+      pivot: {x: 0.41579184, y: 0.5182297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc91e561afa5e43b78b857246a8d1ada
+      internalID: -1927281508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 108
+        height: 278
+      alignment: 9
+      pivot: {x: 0.53430855, y: 0.5177708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19c3e64e98c41bfb35a5fdebf72d63
+      internalID: -2037791388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_9
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2
+        width: 133
+        height: 273
+      alignment: 9
+      pivot: {x: 0.44428363, y: 0.5135721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a3b98781d84030ab8c530f51814ff
+      internalID: 2145171199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_10
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3
+        width: 110
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e432571b6b39e469985576cdbb1ef512
+      internalID: -645949426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite.IRENEai_11
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4
+        width: 137
+        height: 270
+      alignment: 9
+      pivot: {x: 0.6352263, y: 0.51372296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc575dd857904b23bb6f445d8b96978
+      internalID: -1433421063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sprite.IRENEai_0: -2128913327
+      sprite.IRENEai_1: 112784638
+      sprite.IRENEai_10: -645949426
+      sprite.IRENEai_11: -1433421063
+      sprite.IRENEai_2: 622342755
+      sprite.IRENEai_3: 1133184988
+      sprite.IRENEai_4: -1957406849
+      sprite.IRENEai_5: 1041561374
+      sprite.IRENEai_6: 1665649755
+      sprite.IRENEai_7: -1927281508
+      sprite.IRENEai_8: -2037791388
+      sprite.IRENEai_9: 2145171199
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

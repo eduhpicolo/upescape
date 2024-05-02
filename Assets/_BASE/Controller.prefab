@@ -44,4 +44,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00ab831c025945cf9f25f79106e12db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasInteract: {fileID: 0}

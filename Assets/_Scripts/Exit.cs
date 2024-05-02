@@ -12,7 +12,11 @@ public class Exit : MonoBehaviour
         {
             yield return new WaitForSeconds(3);
             
-            SceneManager.LoadScene(0);
+            try{
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            } catch{
+                SceneManager.LoadScene(0);
+            }
         }
 
         StartCoroutine(Wait());
